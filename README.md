@@ -51,3 +51,7 @@ npm test
 - `test/opts.js` — the settings page, including a mocked 3-display arrangement. Screenshots land in `test/.tmp/`.
 
 Chrome stable (137+) ignores `--load-extension`, so the browser tests default to Brave at `/Applications/Brave Browser.app`. Point `CHROME_BIN` at Chromium or Chrome for Testing otherwise.
+
+## License
+
+MIT. See [LICENSE](LICENSE).

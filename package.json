@@ -8,5 +8,10 @@
     "test:unit": "node test/unit.js",
     "test:e2e": "node test/e2e.js",
     "test:opts": "node test/opts.js"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/luke-th/opensesame-extension.git"
   }
 }
