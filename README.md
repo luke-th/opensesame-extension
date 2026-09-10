@@ -1,6 +1,17 @@
-# OpenSesame
+<p align="center">
+  <img src="docs/icon.png" width="128" alt="OpenSesame icon">
+</p>
 
-Chrome extension. Hold a shortcut (default **⌥⌘**, configurable to any modifiers plus an optional regular key like ⌃O or `) and click a link: it opens in a new window, fitted to the work area of your *other* monitor (the one you didn't click on).
+<h1 align="center">OpenSesame</h1>
+
+<p align="center">Hold a shortcut, click a link, and it opens in a new window fitted to your other monitor.<br>
+A Chrome extension.</p>
+
+<p align="center">
+  <img src="docs/hero.png" width="840" alt="OpenSesame settings: the Target Screen section showing two displays drawn to scale, a 2560×1440 Display and the 1800×1169 Main display marked This window, with Auto selected">
+</p>
+
+Default shortcut is **⌥⌘**, configurable to any modifiers plus an optional regular key like ⌃O or `. The new window fills the work area of whichever display you *didn't* click on.
 
 ## Install (unpacked)
 
