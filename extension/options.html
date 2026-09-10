@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>OpenSesame settings</title>
+  <link rel="stylesheet" href="options.css">
+</head>
+<body>
+  <main>
+    <header class="brand">
+      <img class="logo" src="icons/icon128.png" width="56" height="56" alt="">
+      <h1>OpenSesame</h1>
+      <p class="sub">Hold your shortcut and click a link to open it in a new window on your other screen.</p>
+    </header>
+
+    <section>
+      <h2>Shortcut</h2>
+      <div class="shortcut-row">
+        <kbd id="shortcutDisplay" class="kbd"></kbd>
+        <button id="recordBtn" type="button" class="primary">Change</button>
+        <button id="clearKeyBtn" type="button" hidden>Remove key</button>
+      </div>
+      <p class="hint">Click <b>Change</b>, then hold the modifier keys and, optionally, one regular key (e.g. ⌃⌥, ⌘Q, or just <code>`</code>). Release to save, Esc to cancel. Modifiers must match exactly when you click.</p>
+      <p class="hint">A regular key is only seen once the page has focus, so click the page first if you've just used the address bar. Browser shortcuts like ⌘W still fire while recording, so avoid those.</p>
+      <p class="warn" id="warn" hidden></p>
+    </section>
+
+    <section>
+      <h2>Target screen</h2>
+      <div class="arrangement" id="arrangement" role="radiogroup" aria-label="Target screen"></div>
+      <div class="mode-row">
+        <button id="autoBtn" type="button" class="chip" aria-pressed="true">Auto</button>
+        <p class="hint" id="modeText"></p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Behaviour</h2>
+      <label class="row check">
+        <input type="checkbox" id="focusNewWindow">
+        <span>Focus the new window <small>Untick to keep working where you are.</small></span>
+      </label>
+      <label class="row check">
+        <input type="checkbox" id="contextMenu">
+        <span>Add “Open link on other screen” to the right-click menu <small>Works on pages where the shortcut can't, e.g. PDFs.</small></span>
+      </label>
+    </section>
+
+    <footer>
+      <span id="status" class="status"></span>
+    </footer>
+  </main>
+
+  <script src="shared.js"></script>
+  <script src="options.js"></script>
+</body>
+</html>

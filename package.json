@@ -1,0 +1,12 @@
+{
+  "name": "opensesame",
+  "version": "0.2.0",
+  "private": true,
+  "description": "Chrome extension: shortcut-click a link to open it in a new window fitted to your other monitor.",
+  "scripts": {
+    "test": "node test/unit.js && node test/e2e.js && node test/opts.js",
+    "test:unit": "node test/unit.js",
+    "test:e2e": "node test/e2e.js",
+    "test:opts": "node test/opts.js"
+  }
+}

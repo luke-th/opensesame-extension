@@ -1,0 +1,5 @@
+test/.tmp/
+agents-wip/
+.DS_Store
+.playwright-mcp/
+*.zip
